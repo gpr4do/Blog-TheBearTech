@@ -24,13 +24,12 @@
       <img src="<?= $BASE_URL ?>/img/logo.svg" alt="Blog The Bear Tech">
     </a>
     <nav>
-      <ul id="navegar">
-        <li><a href="<?= $BASE_URL ?>">Home</a></li>
-        <li><a href="#">Categories</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="<?= $BASE_URL ?>contact.php">Contact</a></li>
+      <ul id="navbar">
+        <li><a href="<?= $BASE_URL ?>" class="nav-link">Home</a></li>
+        <li><a href="#" class="nav-link">Categories</a></li>
+        <li><a href="#" class="nav-link">About</a></li>
+        <li><a href="<?= $BASE_URL ?>contact.php" class="nav-link">Contact</a></li>
       </ul>
-
     </nav>
   </header>
 </body>
